@@ -1,3 +1,12 @@
+.n__contain__lang-contact__lang__select select {
+  -webkit-appearance: none;
+  appearance: auto;
+}
+.n__contain__lang-contact__lang__select {
+  cursor: pointer;
+  margin: 0px 0px 0px 0.99vw;
+  text-align: center;
+}
 /* select {
   --main-text-color: #314386;
   --secondary-text-color: #f4f4f4;
@@ -713,11 +722,7 @@ body {
   align-items: flex-start;
   flex-direction: column;
 }
-.n__contain__lang-contact__lang__select {
-  cursor: pointer;
-  margin: 0px 0px 0px 0.99vw;
-  text-align: center;
-}
+
 .uppercase {
   text-transform: uppercase;
 }
