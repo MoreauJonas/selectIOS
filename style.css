@@ -1,0 +1,4 @@
+.language-selector {
+  -webkit-appearance: none; /* Désactive l'apparence native sur iOS */
+  appearance: none;
+}
