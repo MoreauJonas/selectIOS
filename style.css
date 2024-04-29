@@ -5,6 +5,7 @@
 
 .language-selector2 select {
   -webkit-appearance: button;
+  appearance: auto;
   background: transparent;
   color: black;
 }
