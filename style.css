@@ -10,6 +10,13 @@
   color: black;
 }
 
+.language-selector3 select {
+  -webkit-appearance: menulist;
+  appearance: auto;
+  background: transparent;
+  color: black;
+}
+
 .title {
   color: red;
 }
