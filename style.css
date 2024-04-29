@@ -3,6 +3,14 @@
   appearance: none;
 }
 
+.language-selector1 select {
+  padding-right: 22px !important;
+  background-image: url("https://www.freeiconspng.com/uploads/arrow-icon--myiconfinder-23.png") !important;
+  background-position: calc(100px - 7px) !important;
+  background-repeat: no-repeat !important;
+  color: black;
+}
+
 .language-selector2 select {
   -webkit-appearance: button;
   appearance: auto;
@@ -16,7 +24,9 @@
   background: transparent;
   color: black;
 }
-
+select {
+  border: none;
+}
 .title {
   color: red;
 }
