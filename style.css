@@ -71,7 +71,7 @@ select {
   align-items: center;
   justify-content: space-between;
 }
-header {
+.header-select {
   --main-text-color: #314386;
   --secondary-text-color: #f4f4f4;
   --h2-font-basic-color: #ff7b01;
@@ -106,4 +106,44 @@ header {
   margin: 13px 0px 14px 0px;
   padding: 0px 22px 0px 22px;
   align-items: center;
+}
+header {
+  --main-text-color: #314386;
+  --secondary-text-color: #f4f4f4;
+  --h2-font-basic-color: #ff7b01;
+  --h2-font-color: #314386;
+  --h2-third-color: #f4f4f4;
+  --third-text-color: #ce0033;
+  --h-main-italic-color: #ff7b01;
+  --h-secondary-italic-color: #314386;
+  --main-bg-color: #f4f4f4;
+  --secondary-bg-color: #dbdbdb;
+  --fourth-bg-color: rgba(49, 67, 134, 0.17);
+  --third-bg-color: #ff7b01;
+  --five-bg-color: #314386;
+  --main-border-color: #ff7b01;
+  --cta-main-bg-color: #314386;
+  --cta-secondary-bg-color: #ff7b01;
+  --cta-third-bg-color: #f4f4f4;
+  --cta-hover-main-bg-color: #172041;
+  --cta-hover-secondary-bg-color: #994900;
+  --main-font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  --hover-bg-color-mosaic: rgba(155, 60, 50, 0.84);
+  --hover-nav-color: #ff7b01;
+  --border-radius-30px: 30px;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  box-sizing: border-box;
+  top: 0px;
+  max-width: 100%;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  height: 77px;
+  border-bottom: 1px solid #dcdcdc;
+  transition: background-color 0.3s;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  display: block;
+  transform: translateY(0px);
+  visibility: visible;
 }
