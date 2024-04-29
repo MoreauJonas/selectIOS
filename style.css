@@ -1,5 +1,14 @@
-.language-selector {
+.language-selector1 select {
   -webkit-appearance: none; /* Désactive l'apparence native sur iOS */
   appearance: none;
-  background-color: azure;
+}
+
+.language-selector2 select {
+  -webkit-appearance: button;
+  background: transparent;
+  color: black;
+}
+
+.title {
+  color: red;
 }
