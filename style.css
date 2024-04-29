@@ -1,11 +1,9 @@
-.n__contain__lang-contact__lang__select select {
-  -webkit-appearance: none;
-  appearance: auto;
-}
 .n__contain__lang-contact__lang__select {
   cursor: pointer;
   margin: 0px 0px 0px 0.99vw;
   text-align: center;
+  -webkit-appearance: none;
+  appearance: auto;
 }
 /* select {
   --main-text-color: #314386;
